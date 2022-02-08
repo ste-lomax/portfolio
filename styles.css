@@ -4,6 +4,15 @@ h1 {
 .test-class {
     background-color: blue;
 }
-#hobbies {
+#about-me h2 {
     font-size: 20px;
+}
+#about-me h3 ~ img {
+        width:100px;
+}
+.ask-me h3 {
+    color: hotpink;
+}
+.ask-me > p {
+    color: grey;
 }
