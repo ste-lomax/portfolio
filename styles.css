@@ -16,3 +16,16 @@ h1 {
 .ask-me > p {
     color: grey;
 }
+#box:checked {
+    box-shadow: 0 0 0 3px green;
+}
+#box:checked + label {
+    color: green;
+}
+#button:disabled {
+   color: red;
+}
+.footer:hover {
+    font-size: x-large;
+    font-style: italic;
+}
